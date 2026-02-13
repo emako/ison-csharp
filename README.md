@@ -4,6 +4,17 @@ A minimal, token-efficient data format optimized for LLMs and Agentic AI workflo
 
 The origin project and why ([HERE](https://github.com/ISON-format/ison))
 
+## Installation
+
+### C#
+
+```shell
+$ dotnet add package Ison --version 1.0.0
+```
+
+> you may find the package [HERE](https://www.nuget.org/packages/Ison/1.0.0)
+
+
 ## Usage Examples
 
 ### C#
