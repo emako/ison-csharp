@@ -7,9 +7,14 @@
     <IsPackable>true</IsPackable>
     <PackageId>Ison</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Ported from ison-go</Authors>
+    <Authors>rarnu</Authors>
     <Description>C# parser and serializer for ISON (Interchange Simple Object Notation) - a minimal, token-efficient data format optimized for LLMs and Agentic AI workflows.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>Ison</Title>
+    <PackageProjectUrl>https://github.com/rarnu/ison-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rarnu/ison-csharp</RepositoryUrl>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

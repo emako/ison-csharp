@@ -430,7 +430,7 @@ namespace Ison
                         {
                             foreach (var key in elements[0].EnumerateObject().Select(p => p.Name))
                             {
-                                block.AddField(key, "");
+                                block.AddField(key);
                             }
                         }
 
@@ -454,7 +454,7 @@ namespace Ison
                         var objBlock = new Block("object", name);
                         foreach (var key in value.EnumerateObject().Select(p => p.Name))
                         {
-                            objBlock.AddField(key, "");
+                            objBlock.AddField(key);
                         }
                         var objRow = new Row();
                         foreach (var prop in value.EnumerateObject())
@@ -562,7 +562,7 @@ namespace Ison
                             var block = new Block("table", name);
                             foreach (var field in fieldOrder)
                             {
-                                block.AddField(field, "");
+                                block.AddField(field);
                             }
 
                             foreach (var item in list)
@@ -599,7 +599,7 @@ namespace Ison
                         }
                         foreach (var key in fields)
                         {
-                            objBlock.AddField(key, "");
+                            objBlock.AddField(key);
                         }
                         var objRow = new Row();
                         foreach (var kvp in dict)
